@@ -62,8 +62,8 @@ function drawSnowMan(x, y) {
 	circle(xCentre + 0, yCentre + 135, 10);
 	circle(xCentre + 0, yCentre + 155, 10);
 
-	//Scarf
-	fill("red");
-	rectMode(CENTER)
-	rect(xCentre - 20, yCentre + 50, 120, 15, 15);
+	// //Scarf
+	// fill("red");
+	// rectMode(CENTER)
+	// rect(xCentre - 20, yCentre + 50, 120, 15, 15);
 }
