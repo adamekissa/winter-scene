@@ -49,7 +49,7 @@ function drawSnowMan(x, y) {
 
 	//Nose
 	fill("black")
-	circle(xCentre + 0, yCentre + 15, 30);
+	circle(xCentre + 0, yCentre + 15, 15);
 
 	//Body
 	fill("white")
