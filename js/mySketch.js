@@ -8,14 +8,14 @@ function setup() {
     createCanvas(windowWidth, windowHeight / 2);
     currentPalette = randomPalette();
     noStroke();
-    background("white");
+    background(0);
 }
 
 function draw() {
-    fill(random(currentPalette));
+    fill(random(255, 20));
     const x = random(0, width);
     const y = random(0, height);
-    circle(x, y, 100);
+    circle(x, y, 10);
 }
 
 function mouseClicked() {
