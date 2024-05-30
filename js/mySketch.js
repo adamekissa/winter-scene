@@ -5,7 +5,7 @@
 let currentPalette;
 
 function setup() {
-    createCanvas(windowWidth, windowHeight / 2);
+    createCanvas(windowWidth, windowHeight /1.5);
     currentPalette = randomPalette();
     noStroke();
     background(0);
