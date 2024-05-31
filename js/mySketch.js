@@ -5,7 +5,7 @@
 let currentPalette;
 
 function setup() {
-    createCanvas(windowWidth, windowHeight /1.5);
+    createCanvas(windowWidth, 600);
     currentPalette = randomPalette();
     noStroke();
     background(0);
@@ -17,8 +17,15 @@ function draw() {
     const y = random(0, height);
     circle(x, y, 10);
 
-    drawSnowMan(200, 355) ;
-    drawSnowMan(400, 355) ;
+    drawSnowMan(600, 380) ;
+    drawSnowMan(800, 380) ;
+
+    fill("green");
+  triangle(100, 10, 40, 200, 160, 200);
+  triangle(100, 70, 40, 250, 160, 250);
+
+  fill("black");
+  rect(80, 250, 40, 100);
 }
 
 function mouseClicked() {
